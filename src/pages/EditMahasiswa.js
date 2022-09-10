@@ -52,7 +52,7 @@ function EditMahasiswa() {
 
     return (
         <div className="text-light min-vh-100" style={stylePage}>
-            <h5 style={{color: textPrimary}} color={textSecondary}>Create Mahasiswa</h5>
+            <h5 style={{color: textPrimary}} color={textSecondary}>Edit Mahasiswa</h5>
             <FormMahasiswa mhs={mahasiswa} handleChange={handleChange} handleCancel={handleCancel}
                 handleSubmit={handleSubmit}/>
         </div>
